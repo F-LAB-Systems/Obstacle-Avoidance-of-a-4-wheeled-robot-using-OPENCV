@@ -126,6 +126,7 @@ Contour detection is a very useful method used in detection the shape of an obje
 <br />
 
 ##Results
+
 We ran the code for the background shown in original image. The navigation output is as shown below
 
 ![Move Forward] Forward.png
@@ -136,11 +137,12 @@ We ran the code for the background shown in original image. The navigation outpu
 
 <br />
 
-![Move Right] Right.png
+![Move Right] <img src="Right.png">
 
 <br />
 
 ##Conclusion
+
 In conclusion, OpenCV and NumPy libraries were used to write the algorithm for obstacle avoidance. If we look closely at images in the results, this algorithm specifically works for clean background which does not have many colour variations. In such scenario we could successfully detect all the objects kept in the frame. Some issues where faced when detecting contours of an object which does not have colour contrast between background and that object
 <br />
 This project was completely done on Raspberry Pi 3 and a Webcam, it was never implemented on the real 4 wheeled robot due to lack of hardware required. This project can be further improved by using a pre-trained neural network which detect objects in any environment or creating new neural network altogether, which will help in better decision of objects which may further improve decision making of the robot.
