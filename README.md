@@ -125,7 +125,7 @@ Contour detection is a very useful method used in detection the shape of an obje
 
 <br />
 
-##Results
+## Results
 
 We ran the code for the background shown in original image. The navigation output is as shown below
 
@@ -147,7 +147,7 @@ We ran the code for the background shown in original image. The navigation outpu
 
 <br />
 
-##Conclusion
+## Conclusion
 
 In conclusion, OpenCV and NumPy libraries were used to write the algorithm for obstacle avoidance. If we look closely at images in the results, this algorithm specifically works for clean background which does not have many colour variations. In such scenario we could successfully detect all the objects kept in the frame. Some issues where faced when detecting contours of an object which does not have colour contrast between background and that object
 <br />
