@@ -72,30 +72,55 @@ Contour detection is a very useful method used in detection the shape of an obje
 ## Pseudo Code for detecting obstacles and navigating a robot
 
 *Get the frame form the video*
+
 *Reducing the noise using bilateral filter*
+
 *Edge detection using canny edge*
+
 *Initialize the Edge array*
+
 *Get the size (width and height) of the frame using ‘.shape’*
+
 *FOR the length of width of the frame with the interval of five pixel:*
+
 *FOR the length of height of the frame:*
+
 *if pixel value = 255 then*
+
 *Break*
+
 *Append this pixel co-ordinates to Edge array*
+
 *FOR the length of Edge array:*
+
 *Draw line with consecutive Egde array points*
+
 *FOR the length of Edge array:*
+
 *Draw line with point at the bottom edge to respective point in edge array*
+
 *FOR the length of Edge array with the interval of ‘length of Edge array/3’:*
+
 *Store Edge array as three chunks*
+
 *Calculate the average of each chunks and store in variable ‘c[left, forward, right]’*
+
 *Draw three lines to these three points from center of bottom edge of the frame*
+
 *Store the minimum value of ‘c’ in ‘y’ (minimum with respect to y co-ordinate)*
+
 *if y coordinate value of c(forward) > 250 then:*
+
 *if x coordinate value of ‘y’ < 310 then:*
+
 *Move left*
+
 *else:*
+
 *Move Right*
+
 *else:*
+
 *Move Forward*
 
 <br />
