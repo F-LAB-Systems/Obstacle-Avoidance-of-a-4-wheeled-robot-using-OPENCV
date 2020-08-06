@@ -129,15 +129,21 @@ Contour detection is a very useful method used in detection the shape of an obje
 
 We ran the code for the background shown in original image. The navigation output is as shown below
 
-![Move Forward] Forward.png
+**Move Forward**
+
+<img src="Forward.png">
 
 <br />
 
-![Move Left] Left.png
+**Move Left**
+
+<img src="Left.png">
 
 <br />
 
-![Move Right] <img src="Right.png">
+**Move Right**
+
+<img src="Right.png">
 
 <br />
 
