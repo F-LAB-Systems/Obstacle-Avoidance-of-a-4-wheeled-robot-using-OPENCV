@@ -29,7 +29,7 @@ Most used methos for Appearance-based obstacle detraction’s are, Canny, Sobel,
 ### Frame Capture
  In this we need to capture frames from live video stream which is needed for further processing. OpenCV provides a simple function to do this. To capture frames of a video, we create an object using ‘VideoCapture’ command. In this object we either pass the video file path or the webcam index (0 or 1). As we are using an external webcam, we are passing the webcam index of the value 1
 
-** Original Image**
+**Original Image**
 
 <img src="Original_Frame1.png"> 
 
@@ -62,7 +62,7 @@ Canny edge detection is mainly used for detecting the edges in an image, without
 ### Thresholding 
 Thresholding is one of the most important steps used in differentiating background and foreground. It helps in assigning of pixel values in relation to the threshold provided. In this technique each pixel value in the frame is compared to the threshold. If the pixel value is lower than the threshold it is set to 0 and if the values are greater than threshold it is set to maximum which is 255. This will clearly help in making the foreground completely white and the background black or vice versa. The function used for this is ‘cv2.threshold’.
 
-** Image Thresholding Output **
+**Image Thresholding Output**
 
 <img src="Threshold1.png">
 
@@ -71,7 +71,7 @@ Thresholding is one of the most important steps used in differentiating backgrou
 ### Contour detection
 Contour detection is a very useful method used in detection the shape of an object In front of the camera. It is a closed curve joining all continuous points having same Colour intensity. But when contour detection is applied on any image it detects internal contours too which are not required for obstacle detection. Hence, only external contours are detected by providing the function ‘findContours’ a filtered image as an input.
 
-** Contour detection output **
+**Contour detection output**
 
 <img src="Contour1.png"> 
 
@@ -137,11 +137,11 @@ Contour detection is a very useful method used in detection the shape of an obje
 
 We ran the code for the background shown in original image. The navigation output is as shown below. 
 
-**Final Frame**
+**Move Forward**
 
 The green lines in an image show that the robot can move freely
 
-<img src = "Edge_separation1.png>
+<img src = "Edge_separation1.png">
 
 **Move Forward**
 
