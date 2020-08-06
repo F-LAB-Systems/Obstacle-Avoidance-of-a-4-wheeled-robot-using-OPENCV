@@ -11,7 +11,7 @@ Nowadays robots are replacing many of the human jobs. As usage of robots has bee
 
 ## Detection Methods
 
-Appearance-based obstacle detection
+• Appearance-based obstacle detection
 
 <br />
 
@@ -47,10 +47,10 @@ This filter technique is used for smoothing of the image and making sure that th
 Canny edge detection is mainly used for detecting the edges in an image, without violating any structural properties of an image. Canny edge detection process contains multiple steps and those are
 <br />
 
-• Image filtering
-• Image gradient calculation
-• Non-maximum suppression
-• Double threshold
+• Image filtering <br />
+• Image gradient calculation <br />
+• Non-maximum suppression <br />
+• Double threshold <br />
 • Edge tracking by hysteresis
 
 **Canny Edge detetction output**
@@ -137,7 +137,7 @@ Contour detection is a very useful method used in detection the shape of an obje
 
 We ran the code for the background shown in original image. The navigation output is as shown below. 
 
-**Move Forward**
+**Final Frame**
 
 The green lines in an image show that the robot can move freely
 
