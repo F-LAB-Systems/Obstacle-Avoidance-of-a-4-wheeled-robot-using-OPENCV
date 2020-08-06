@@ -31,7 +31,7 @@ Most used methos for Appearance-based obstacle detraction’s are, Canny, Sobel,
 
 **Original Image**
 
-<img src="Original_Frame1.png"> 
+<img src="images/Original_Frame1.png"> 
 
 <br />
 
@@ -55,7 +55,7 @@ Canny edge detection is mainly used for detecting the edges in an image, without
 
 **Canny Edge detetction output**
 
-<img src="Canny1.png">
+<img src="images/Canny1.png">
 
 <br />
 
@@ -64,7 +64,7 @@ Thresholding is one of the most important steps used in differentiating backgrou
 
 **Image Thresholding Output**
 
-<img src="Threshold1.png">
+<img src="images/Threshold1.png">
 
 <br />
 
@@ -73,7 +73,7 @@ Contour detection is a very useful method used in detection the shape of an obje
 
 **Contour detection output**
 
-<img src="Contour1.png"> 
+<img src="images/Contour1.png"> 
 
 <br />
 
@@ -141,23 +141,23 @@ We ran the code for the background shown in original image. The navigation outpu
 
 The green lines in an image show that the robot can move freely
 
-<img src = "Edge_separation1.png">
+<img src = "images/Edge_separation1.png">
 
 **Move Forward**
 
-<img src="Forward.png">
+<img src="images/Forward.png">
 
 <br />
 
 **Move Left**
 
-<img src="Left.png">
+<img src="images/Left.png">
 
 <br />
 
 **Move Right**
 
-<img src="Right.png">
+<img src="images/Right.png">
 
 <br />
 
